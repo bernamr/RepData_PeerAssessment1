@@ -1,10 +1,10 @@
----
+------------------------------------------------
 title: "PA1_Template.Rmd"
 output:
   html_document:
     df_print: paged
   pdf_document: default
----
+---------------------------------------------
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, results = "asis")
