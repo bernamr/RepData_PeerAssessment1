@@ -48,6 +48,7 @@ print(mean_per_day)
 median_per_day <- median(steps_per_day$steps)
 print(median_per_day)
 ```
+(instructions_fig/plot1.png) 
 
 ## Second Part - 
 
@@ -63,6 +64,8 @@ plot(steps_per_interval_mean$interval, steps_per_interval_mean$steps,
 max(steps_per_interval_mean$steps)
 which.max(steps_per_interval_mean$step) 
 ```
+
+(instructions_fig/plot2.png) 
 
 
 ### Imputing missing values
@@ -105,6 +108,9 @@ print(mean_per_day1)
 median_per_day1 <- median(steps_per_day$steps)
 print(median_per_day1)
 ```
+
+(instructions_fig/plot3.png) 
+
 ## Third Part
 1.Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 2.Make a panel plot containing a time series plot  of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
@@ -127,5 +133,5 @@ ggplot(Week_steps_mean, aes(interval, steps)) +
         labs(x="Interval", y=expression("No of Steps")) +
         ggtitle("No of steps Per Interval by day type")
 ````
-
+(instructions_fig/plot4.png) 
 
