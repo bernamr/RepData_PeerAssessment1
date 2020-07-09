@@ -46,7 +46,8 @@ print(mean_per_day)
 median_per_day <- median(steps_per_day$steps)
 print(median_per_day)
 ```
-instructions_fig/plo1.png
+![Sample panel plot](instructions_fig/plot1.png) 
+
 
 ## Second Part - 
 
@@ -63,7 +64,7 @@ max(steps_per_interval_mean$steps)
 which.max(steps_per_interval_mean$step) 
 ```
 
-instructions_fig/plo2.png
+![Sample panel plot](instructions_fig/plot2.png) 
 
 
 ### Imputing missing values
@@ -107,7 +108,7 @@ median_per_day1 <- median(steps_per_day$steps)
 print(median_per_day1)
 ```
 
-instructions_fig/plo3.png
+![Sample panel plot](instructions_fig/plot3.png) 
 
 ## Third Part
 1.Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
@@ -131,5 +132,5 @@ ggplot(Week_steps_mean, aes(interval, steps)) +
         labs(x="Interval", y=expression("No of Steps")) +
         ggtitle("No of steps Per Interval by day type")
 ````
-instructions_fig/plo4.png
+![Sample panel plot](instructions_fig/plot4.png) 
 
