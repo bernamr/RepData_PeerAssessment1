@@ -97,6 +97,7 @@ for (i in 1:nrow(Activity_data)) {
 ````
 
 ### Making histogram
+
 ````{r histogram}
 steps_per_day1 <- aggregate(steps ~ date, Activity_data, sum)
 str(steps_per_day1)
@@ -106,13 +107,16 @@ mean_per_day1 <- mean(steps_per_day$steps)
 print(mean_per_day1)
 median_per_day1 <- median(steps_per_day$steps)
 print(median_per_day1)
-```
+````
 
 ![plot3](instructions_fig/plot3.png) 
 
 ## Third Part
+
 1.Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
 2.Make a panel plot containing a time series plot  of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
+
+
 ### Manage weeksday.
 ```{r weekday}
 Activity_data$day <- as.Date(Activity_data$date, "%Y-%m-%d")
