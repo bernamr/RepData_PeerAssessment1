@@ -46,7 +46,7 @@ print(mean_per_day)
 median_per_day <- median(steps_per_day$steps)
 print(median_per_day)
 ```
-![plot1](instructions_fig/plot1.png) 
+![plot1](instructions_fig/plo1.png) 
 
 
 ## Second Part - 
@@ -64,7 +64,7 @@ max(steps_per_interval_mean$steps)
 which.max(steps_per_interval_mean$step) 
 ```
 
-![plot2](instructions_fig/plot2.png) 
+![plot2](instructions_fig/plo2.png) 
 
 
 ### Imputing missing values
@@ -109,7 +109,7 @@ median_per_day1 <- median(steps_per_day$steps)
 print(median_per_day1)
 ````
 
-![plot3](instructions_fig/plot3.png) 
+![plot3](instructions_fig/plo3.png) 
 
 ## Third Part
 
@@ -136,5 +136,5 @@ ggplot(Week_steps_mean, aes(interval, steps)) +
         labs(x="Interval", y=expression("No of Steps")) +
         ggtitle("No of steps Per Interval by day type")
 ````
-![plot4](instructions_fig/plot4.png) 
+![plot4](instructions_fig/plo4.png) 
 
