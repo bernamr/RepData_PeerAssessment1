@@ -1,9 +1,5 @@
 ------------------------------------------------
-title: "PA1_Template.Rmd"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
+ "PA1_Template.Rmd"
 ---------------------------------------------
 
 ```{r setup, include=FALSE}
